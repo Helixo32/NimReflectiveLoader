@@ -25,6 +25,9 @@ NimReflectiveLoader is a tool developed in Nim, specializing in executing DLLs e
 After compiling, you can load and execute DLLs in memory using the NimReflectiveLoader and also invoke specific exported functions from these DLLs.
 You need to change the URL and exported function on lines 445 and 446.
 
+## Demo
+[https://github.com/Helixo32/NimReflectiveLoader/raw/main/Demo.mp4](https://github.com/Helixo32/NimReflectiveLoader/assets/73953510/f246e922-19ae-4f24-9490-4bc8ebb1ae5e)
+
 ## License
 This project is licensed under MIT License - see the LICENSE file for details.
 
