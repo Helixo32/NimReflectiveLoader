@@ -13,13 +13,19 @@ NimReflectiveLoader is a tool developed in Nim, specializing in executing DLLs e
 ## Getting Started
 ### Installation
 1. Clone the repository:
-	- git clone https://github.com/Helixo32/NimReflectiveLoader
+   	```
+	git clone https://github.com/Helixo32/NimReflectiveLoader
+    	```
 
-2. Compile the source code using Nim:
+3. Compile the source code using Nim:
 	- Linux
-		- nim --os:windows --cpu:amd64 --gcc.exe:x86_64-w64-mingw32-gcc --gcc.linkerexe:x86_64-w64-mingw32-gcc c RunRemoteDll.nim
+	```
+  	nim --os:windows --cpu:amd64 --gcc.exe:x86_64-w64-mingw32-gcc --gcc.linkerexe:x86_64-w64-mingw32-gcc c RunRemoteDll.nim
+  	```
 	- Windows
-		- nim c RunRemoteDll.nim
+ 	```
+	nim c RunRemoteDll.nim
+  	```
 
 ## Usage
 After compiling, you can load and execute DLLs in memory using the NimReflectiveLoader and also invoke specific exported functions from these DLLs.
