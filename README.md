@@ -1,5 +1,7 @@
 # NimReflectiveLoader
 
+[![Nim Version](https://img.shields.io/badge/nim-2.0.0-orange.svg)](https://nim-lang.org/)
+
 ## Overview
 NimReflectiveLoader is a tool developed in Nim, specializing in executing DLLs entirely in memory. This project leverages Reflective DLL Loading, a technique that allows DLLs to be loaded and executed without being written to disk, thereby enhancing stealth and efficiency. It also enables the execution of specific exported functions within these DLLs.
 
